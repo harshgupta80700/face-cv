@@ -1,0 +1,107 @@
+.header{
+	background: black;
+	color: #fff;
+	font-size: 2rem;
+	font-family: 'Poiret One', cursive;
+	word-spacing: 10px;
+	display: inline-block;
+	width:100%;
+}
+.header .logo{
+	text-align: right;
+	float: right;
+	margin-bottom: -10px;
+}
+.home {
+	background-image: url("background.jpg");
+	background-size: cover;
+	margin-top: -70px;
+	margin-bottom: 30px;
+	height: 100%;
+}
+.main{
+	background: black;
+	font-size: 30px;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	word-spacing: 00px;
+	color: #fff;
+	margin-top:-30px;
+}
+.heading{
+	float:left;
+	font-size: 2rem;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+.abc{
+	display: inline-block;
+	width: 100%;
+	margin-top: -30px;
+}
+.abc img{
+	float: right;
+	width:500px;
+	height: auto;
+	border-radius: 50%;
+	margin-right:70px;
+	margin-top: 30px; 
+	border:2px blue;
+	box-shadow: 10px 10px 5px black;
+}
+.abc .text{
+	margin-left: 5px;
+	color: rgb(0, 0, 0);
+	font-weight: 550;
+}
+.center{
+	text-align: center;
+}
+.icons img{
+	border-radius: 50%;
+	width: 100px;
+	height: auto;
+	padding: 10px;
+}
+.print{
+	font-size: 50px;
+	font-family: Courier New;
+}
+.animation{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+   	width: 200%
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+.index{
+	font-family:Bradley Hand , cursive ;
+	font-size: 50px;
+	margin-bottom: -30px;
+}
+.pqr{
+	background-image: url("wood.jpg");
+	background-size: cover;
+}
+@media screen and (max-width: 768px) {
+    /* For mobile phones:*/
+    	div .content {
+    		width: 100%;
+    		float: left;
+    		clear: both;
+    	}
+    	#profile {
+    		float: left;
+    		clear: left;
+    	}
+    }
